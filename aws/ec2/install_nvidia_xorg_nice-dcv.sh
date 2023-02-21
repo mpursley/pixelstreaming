@@ -79,3 +79,9 @@ sudo systemctl isolate graphical.target
 if [[ ! -d ~/PixelStreaming ]] ; then
   echo "WARNING: The PixelStreaming folder doesn't existing.  Please download and extract the PixelStreaming.tgz project file..."
 fi
+
+
+## Now that the bootstrapping is complete, run the Pixelstreaming app and Project like this...
+#bash PixelStreaming/project/Linux_Lyra/LyraStarterGame/Samples/PixelStreaming/WebServers/SignallingWebServer/platform_scripts/bash/Start_WithTURN_SignallingServer.sh &
+#bash ./PixelStreaming/project/Linux_Lyra/LyraGame.sh
+## Then, open the WebClient in your browser.. e.g. http://ec2-<PUBLIC_IP>.us-west-2.compute.amazonaws.com/
